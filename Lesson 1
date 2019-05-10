@@ -1,0 +1,40 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    By showing only differences between the two files it became much easier to find the error as opposed to studying the entire files.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Having the entire history of a file makes it easier to monitor recent and past changes so you do not have to use diff all the time, you can check history first. Also in a team, you can check what others did before making your own changes or additions
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros of manual commits:
+    Adding only logical changes will make diff and history more readable
+    Forces you to think of the progress of your work
+    Makes it easy to keep track of project timelines
+
+    Cons of manual commits:
+    You cannot afford to forget to make a commit
+    Choosing the right time to commit might be a challenge
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    I think it has to do with the purpose for which each system was built, Git was built for code and Google docs was built for documents. You are more likely to have multiple files in a coding project hence the need for a multi-file commit, on the other hand if you were writing a report or a paper with someone, it usually is just one document hence the single-file commit.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Git log shows you all the commits that have happened in a file which is essentially the file change history. git diff on the other hand lets you see the detail of the code changes over item in terms of additions and deletions
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    I think version control can make me more experimental with my coding since I dont have to be afraid that I lost the last working version of the code
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to use Git for my next programming project
